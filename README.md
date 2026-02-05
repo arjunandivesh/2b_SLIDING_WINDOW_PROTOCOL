@@ -74,4 +74,4 @@ c.close()
 
 
 ## RESULT
-Thus, python program to perform stop and wait protocol was successfully executed
+Thus, python program to perform the mechanism of sliding window protocol was successfully executed
