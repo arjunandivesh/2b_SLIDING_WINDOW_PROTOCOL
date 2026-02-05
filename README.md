@@ -9,7 +9,7 @@
 6. Stop the Program
 ## PROGRAM
 
-##SERVERSIDE.PY
+## SERVERSIDE.PY
 import socket
 
 s = socket.socket()
@@ -34,7 +34,7 @@ while True:
 conn.close()
 s.close()
 
-##CLIENTSIDE.PY
+## CLIENTSIDE.PY
 import socket
 
 c = socket.socket()
