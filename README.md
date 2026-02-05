@@ -1,5 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
 ## AIM
+To implement a program to illustrate the mechanism of sliding window protocol
 ## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
@@ -10,6 +11,7 @@
 ## PROGRAM
 
 ## SERVERSIDE.PY
+```
 import socket
 
 s = socket.socket()
@@ -33,8 +35,10 @@ while True:
 
 conn.close()
 s.close()
+```
 
 ## CLIENTSIDE.PY
+```
 import socket
 
 c = socket.socket()
@@ -63,7 +67,7 @@ while True:
 
 c.close()
 
-
+```
 ## OUPUT
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e7d724b-c636-402e-84ad-6bf211deb1cb" />
